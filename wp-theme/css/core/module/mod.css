@@ -31,9 +31,32 @@ version: 0.2
 
 .archive .bd { padding: 10px; }
 
+
+
+
+.entry {
+	border-bottom: 1px dotted #cccccc;
+	margin: 0px;
+	padding: 0px;
+}
+
+.entry:last-child {
+	border-bottom: none;
+}
+
+.entry .inner {
+	padding: 10px 10px 10px 10px;
+}
+
 .entry .hd { display: block; margin-bottom: 10px; }
-.entry .hd .h3 { font-size: 123.1%; text-transform: uppercase; line-height: 160%; }
-.entry .hd .h4 { font-size: 77%; text-transform: uppercase; }
+.entry .hd .h2 { font-size: 196%; line-height: 160%; }
+.entry .hd .h3 { font-size: 108%; }
 
 
 
+
+
+
+.foot {
+	text-align: center;
+}
