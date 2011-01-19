@@ -22,3 +22,31 @@ ul.simpleList li{list-style-type:disc; margin-left:20px; line-height: 160%; }
 cite{display:block; text-align:right; padding-top: 10px;}
 
 p, dt, dd { line-height: 160%; }
+
+
+
+
+.metaList dt {
+	font-size: 93%;
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+
+.metaList dd {
+	font-size: 93%;
+	margin-bottom: 5px;
+}
+
+.author {
+	display: inline-block;
+	background: #f6f6f6;
+	padding: 5px 10px;
+}
+
+.author img {
+	vertical-align: middle;
+	display: inline;
+	padding: 1px;
+	background: #ffffff;
+	border: 1px solid #cccccc;
+}

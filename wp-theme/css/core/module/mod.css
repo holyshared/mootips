@@ -49,8 +49,16 @@ version: 0.2
 }
 
 .entry .hd { display: block; margin-bottom: 10px; }
-.entry .hd .h2 { font-size: 196%; line-height: 160%; }
-.entry .hd .h3 { font-size: 108%; }
+.entry .hd .h2 { font-size: 231%; line-height: 160%; }
+.entry .hd .h3 { font-size: 93%; text-align: right; }
+
+
+
+
+.meta { background: #ebebeb; -moz-border-radius: 10px; }
+.meta .inner { padding: 10px 10px 10px 10px; }
+.meta .hd { display: block; margin-bottom: 10px; font-family: Vollkorn; text-transform: uppercase; border-bottom: 1px dotted #5f9ea0; }
+.meta .hd .h3 { font-size: 108%; padding-bottom: 5px; }
 
 
 
