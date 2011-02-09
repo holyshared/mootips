@@ -23,8 +23,27 @@ cite{display:block; text-align:right; padding-top: 10px;}
 
 p, dt, dd { line-height: 160%; }
 
+.head {
+	overflow: hidden;
+	margin: 15px auto 15px auto;
 
+}
 
+.head header {
+	float: left;
+	margin-right: 30px;
+}
+
+.head .nav { float: left; }
+
+.nav { overflow: hidden; }
+.nav li { float: left; margin-left: 1px; font-size: 108%; text-align: center; }
+.nav li a { background: #f0f0f0; padding: 10px 15px; display: block; }
+
+.nav li a .caption {
+	text-transform: uppercase;
+	font-size: 73%;
+}
 
 .metaList dt {
 	font-size: 93%;

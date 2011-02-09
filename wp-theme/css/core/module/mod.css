@@ -55,10 +55,10 @@ version: 0.2
 
 
 
-.meta { background: #ebebeb; -moz-border-radius: 10px; }
+.meta { background: #ebebeb; -moz-border-radius: 10px; display: block; }
 .meta .inner { padding: 10px 10px 10px 10px; }
 .meta .hd { display: block; margin-bottom: 10px; font-family: Vollkorn; text-transform: uppercase; border-bottom: 1px dotted #5f9ea0; }
-.meta .hd .h3 { font-size: 108%; padding-bottom: 5px; }
+.meta .hd .h3 { font-size: 108%; padding-bottom: 5px; text-align: left; }
 
 
 
