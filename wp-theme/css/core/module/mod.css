@@ -5,7 +5,7 @@ version: 0.2
 */
 /* **************** BLOCK STRUCTURES ***************** */
 /* mod */
-.mod{margin:10px;}
+.mod { margin: 10px; background: gray; }
 .mod .inner{/*background: url(skin/transparent.png) repeat left top;*/}
 
 .inner:after,.hd:after,.bd:after,.ft:after{clear:both;display:block;visibility:hidden;overflow:hidden;height:0 !important;line-height:0;font-size:xx-large;content:" x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ";}
@@ -32,8 +32,6 @@ version: 0.2
 .archive .bd { padding: 10px; }
 
 
-
-
 .entry {
 	border-bottom: 1px dotted #cccccc;
 	margin: 0px;
@@ -45,7 +43,8 @@ version: 0.2
 }
 
 .entry .inner {
-	padding: 10px 10px 10px 10px;
+	padding: 0px 0px 10px 10px;
+
 }
 
 .entry .hd { display: block; margin-bottom: 10px; }
@@ -53,16 +52,10 @@ version: 0.2
 .entry .hd .h3 { font-size: 93%; text-align: right; }
 
 
-
-
 .meta { background: #ebebeb; -moz-border-radius: 10px; display: block; }
 .meta .inner { padding: 10px 10px 10px 10px; }
 .meta .hd { display: block; margin-bottom: 10px; font-family: Vollkorn; text-transform: uppercase; border-bottom: 1px dotted #5f9ea0; }
 .meta .hd .h3 { font-size: 108%; padding-bottom: 5px; text-align: left; }
-
-
-
-
 
 
 .foot {

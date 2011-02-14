@@ -23,6 +23,11 @@ cite{display:block; text-align:right; padding-top: 10px;}
 
 p, dt, dd { line-height: 160%; }
 
+
+
+
+
+
 .head {
 	overflow: hidden;
 	margin: 15px auto 15px auto;
@@ -36,36 +41,25 @@ p, dt, dd { line-height: 160%; }
 
 .head .nav { float: left; }
 
+
+
+
+
+
 .nav { overflow: hidden; }
-.nav li { float: left; margin-left: 1px; font-size: 108%; text-align: center; }
-.nav li a { background: #f0f0f0; padding: 10px 15px; display: block; }
+.nav li { float: left; margin-left: 1px; font-size: 93%; text-align: center; color: #ffffff; }
+.nav li a { background: #2d2d2d; padding: 10px 15px; display: block; color: #ffffff; }
+.nav li a .caption { text-transform: uppercase; font-size: 73%; }
 
-.nav li a .caption {
-	text-transform: uppercase;
-	font-size: 73%;
-}
+.nav li:first-child a { -moz-border-radius-topleft: 5px; -moz-border-radius-bottomleft: 5px; }
+.nav li:last-child a { -moz-border-radius-topright: 5px; -moz-border-radius-bottomright: 5px }
 
-.metaList dt {
-	font-size: 93%;
-	font-weight: bold;
-	margin-bottom: 3px;
-}
 
-.metaList dd {
-	font-size: 93%;
-	margin-bottom: 5px;
-}
 
-.author {
-	display: inline-block;
-	background: #f6f6f6;
-	padding: 5px 10px;
-}
+.discription { font-size: 93%; }
 
-.author img {
-	vertical-align: middle;
-	display: inline;
-	padding: 1px;
-	background: #ffffff;
-	border: 1px solid #cccccc;
-}
+.metaList dt { font-size: 93%; font-weight: bold; margin-bottom: 3px; }
+.metaList dd { font-size: 93%; margin-bottom: 5px; }
+
+.author { display: inline-block; background: #f6f6f6; padding: 5px 10px; }
+.author img { vertical-align: middle; display: inline; padding: 1px; background: #ffffff; border: 1px solid #cccccc; }

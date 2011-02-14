@@ -3,6 +3,7 @@
 @import url("core/libraries.css");
 
 @import url("core/template/template.css");
+@import url("core/template/template_debug.css");
 
 @import url("core/grid/grids.css");
 
