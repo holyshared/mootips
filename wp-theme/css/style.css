@@ -1,8 +1,17 @@
 @charset "utf-8";
 
-@import "core/libraries.css";
-@import "core/content.css";
-@import "core/template/template.css";
-@import "core/grid/grids.css";
-@import "core/module/mod.css";
-@import "core/module/mod_skin.css";
+@import url("core/libraries.css");
+
+@import url("core/template/template.css");
+@import url("core/template/template_debug.css");
+
+@import url("core/grid/grids.css");
+
+@import url("core/module/mod.css");
+@import url("core/module/mod_skins.css");
+
+@import url("core/content.css");
+@import url("core/heading/heading.css");
+
+@import url("table/table.css");
+@import url("table/table_skins.css");

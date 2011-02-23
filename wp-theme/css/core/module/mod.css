@@ -5,13 +5,13 @@ version: 0.2
 */
 /* **************** BLOCK STRUCTURES ***************** */
 /* mod */
-.mod { margin: 10px; background: gray; }
+.mod { margin: 10px; }
 .mod .inner{/*background: url(skin/transparent.png) repeat left top;*/}
 
 .inner:after,.hd:after,.bd:after,.ft:after{clear:both;display:block;visibility:hidden;overflow:hidden;height:0 !important;line-height:0;font-size:xx-large;content:" x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ";}
 .inner{position:relative;}
 
-.archive .hd { font-family: Vollkorn; padding: 10px 15px 15px 15px; -moz-border-radius: 10px; background: #ebebeb; display: block; margin-bottom: 10px; }
+.archive .hd { font-family: Vollkorn; padding: 10px 15px 15px 15px; -moz-border-radius: 5px; background: #696B73; display: block; margin-bottom: 10px; }
 .archive .hd .h3 { font-size: 123.1%; text-transform: uppercase; line-height: 160%; }
 .archive .hd .h4 { font-size: 77%; text-transform: uppercase; }
 .archive .hd:before {
@@ -26,11 +26,14 @@ version: 0.2
 	border-right-width: 30px;
 	border-bottom-width: 15px;
 	border-style: solid;
-	border-color: transparent #ebebeb;
+	border-color: transparent #696B73;
 }
 
 .archive .bd { padding: 10px; }
 
+
+
+/*
 
 .entry {
 	border-bottom: 1px dotted #cccccc;
@@ -60,4 +63,4 @@ version: 0.2
 
 .foot {
 	text-align: center;
-}
+}*/

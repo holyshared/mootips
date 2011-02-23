@@ -25,32 +25,15 @@ p, dt, dd { line-height: 160%; }
 
 
 
+.head { background: #33291C; display:block; border-bottom: 5px solid #4C3E28; padding: 0px 0px 17px 0px; }
+
+.logo { background: url(../../images/bgi_logo.jpg) no-repeat left top; padding: 16px 0px 0px 0px; } 
 
 
-
-.head {
-	overflow: hidden;
-	margin: 15px auto 15px auto;
-
-}
-
-.head header {
-	float: left;
-	margin-right: 30px;
-}
-
-.head .nav { float: left; }
-
-
-
-
-
-
-.nav { overflow: hidden; }
-.nav li { float: left; margin-left: 1px; font-size: 93%; text-align: center; color: #ffffff; }
-.nav li a { background: #2d2d2d; padding: 10px 15px; display: block; color: #ffffff; }
-.nav li a .caption { text-transform: uppercase; font-size: 73%; }
-
+.nav { overflow: hidden; padding: 5px; background: #3C3120; -moz-border-radius: 5px; }
+.nav li { float: left; margin-left: 1px; font-size: 123.1%; font-family: 'Lobster'; text-align: center; color: #ffffff; }
+.nav li a { background: #4C3E28; padding: 10px 15px; display: block; color: #ffffff; }
+.nav li a:hover { background: #898612; }
 .nav li:first-child a { -moz-border-radius-topleft: 5px; -moz-border-radius-bottomleft: 5px; }
 .nav li:last-child a { -moz-border-radius-topright: 5px; -moz-border-radius-bottomright: 5px }
 
