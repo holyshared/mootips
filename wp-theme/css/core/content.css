@@ -27,11 +27,16 @@ p, dt, dd { line-height: 160%; }
 
 .head { background: #33291C; display:block; border-bottom: 5px solid #4C3E28; padding: 0px 0px 17px 0px; }
 
+
+.foot { background: #33291C; display:block; border-top: 5px solid #4C3E28; padding: 0px 0px 0px 0px; }
+
+
+
 .logo { background: url(../../images/bgi_logo.jpg) no-repeat left top; padding: 16px 0px 0px 0px; } 
 
 
-.nav { overflow: hidden; padding: 5px; background: #3C3120; -moz-border-radius: 5px; }
-.nav li { float: left; margin-left: 1px; font-size: 123.1%; font-family: 'Lobster'; text-align: center; color: #ffffff; }
+.nav { overflow: hidden; padding: 3px; background: #3C3120; -moz-border-radius: 5px; }
+.nav li { float: left; margin-right: 1px; font-size: 123.1%; font-family: 'Lobster'; text-align: center; color: #ffffff; }
 .nav li a { background: #4C3E28; padding: 10px 15px; display: block; color: #ffffff; }
 .nav li a:hover { background: #898612; }
 .nav li:first-child a { -moz-border-radius-topleft: 5px; -moz-border-radius-bottomleft: 5px; }
@@ -40,6 +45,8 @@ p, dt, dd { line-height: 160%; }
 
 
 .discription { font-size: 93%; }
+.copyright {text-align: center;}
+
 
 .metaList dt { font-size: 93%; font-weight: bold; margin-bottom: 3px; }
 .metaList dd { font-size: 93%; margin-bottom: 5px; }
