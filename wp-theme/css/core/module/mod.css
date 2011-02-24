@@ -12,8 +12,8 @@ version: 0.2
 .inner{position:relative;}
 
 .archive .hd { font-family: Vollkorn; padding: 10px 15px 15px 15px; -moz-border-radius: 5px; background: #696B73; display: block; margin-bottom: 10px; }
-.archive .hd .h3 { font-size: 123.1%; text-transform: uppercase; line-height: 160%; }
-.archive .hd .h4 { font-size: 77%; text-transform: uppercase; }
+.archive .hd .h3 { font-size: 123.1%; text-transform: uppercase; line-height: 160%; color: #ffffff;  }
+.archive .hd .h4 { font-size: 77%; text-transform: uppercase; color: #ffffff;  }
 .archive .hd:before {
 	content: "\00a0";
 	display: block;
