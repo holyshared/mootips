@@ -1,4 +1,4 @@
-/*
+﻿/*
 Copyright (c) 2009, Nicole Sullivan. All rights reserved.
 Code licensed under the BSD License:
 version: 0.2
@@ -11,10 +11,10 @@ version: 0.2
 .inner:after,.hd:after,.bd:after,.ft:after{clear:both;display:block;visibility:hidden;overflow:hidden;height:0 !important;line-height:0;font-size:xx-large;content:" x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ";}
 .inner{position:relative;}
 
-.archive .hd { font-family: Vollkorn; padding: 10px 15px 15px 15px; -moz-border-radius: 5px; background: #696B73; display: block; margin-bottom: 10px; }
-.archive .hd .h3 { font-size: 123.1%; text-transform: uppercase; line-height: 160%; color: #ffffff;  }
-.archive .hd .h4 { font-size: 77%; text-transform: uppercase; color: #ffffff;  }
-.archive .hd:before {
+.aside .hd { padding: 10px 15px 15px 45px; -moz-border-radius: 5px; background: #696B73 url(../../../images/bgi_head_aside.gif) no-repeat 10px center; display: block; margin-bottom: 10px; }
+.aside .hd .h3 { font-family: "ヒラギノ角ゴ Pro W3", Sylfaen, Georgia, "Times New Roman", serif; font-size: 123.1%; text-transform: uppercase; line-height: 160%; color: #ffffff;  }
+.aside .hd .h4 { font-family: Vollkorn, Sylfaen, Georgia, "Times New Roman", serif; font-size: 77%; text-transform: uppercase; color: #ffffff;  }
+.aside .hd:before {
 	content: "\00a0";
 	display: block;
 	position: absolute;
@@ -29,14 +29,14 @@ version: 0.2
 	border-color: transparent #696B73;
 }
 
-.archive .bd { padding: 10px; }
+.aside .bd { padding: 10px; }
 
 
 
-/*
+
 
 .entry {
-	border-bottom: 1px dotted #cccccc;
+
 	margin: 0px;
 	padding: 0px;
 }
@@ -52,15 +52,10 @@ version: 0.2
 
 .entry .hd { display: block; margin-bottom: 10px; }
 .entry .hd .h2 { font-size: 231%; line-height: 160%; }
-.entry .hd .h3 { font-size: 93%; text-align: right; }
+.entry .hd .attrbs { font-size: 93%; }
 
 
-.meta { background: #ebebeb; -moz-border-radius: 10px; display: block; }
+.meta { margin-top: 20px; background: #ebebeb; -moz-border-radius: 10px; display: block; }
 .meta .inner { padding: 10px 10px 10px 10px; }
 .meta .hd { display: block; margin-bottom: 10px; font-family: Vollkorn; text-transform: uppercase; border-bottom: 1px dotted #5f9ea0; }
 .meta .hd .h3 { font-size: 108%; padding-bottom: 5px; text-align: left; }
-
-
-.foot {
-	text-align: center;
-}*/
