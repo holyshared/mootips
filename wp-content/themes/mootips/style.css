@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/*
+Theme Name: mootips
+Theme URI: http://sharedhat.com/
+Description: mootips style
+Author: Noritaka Horio
+Author URI: http://sharedhat.com/
+Tags: fixed width, two columns
+
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+*/
+
+@import url("css/core/libraries.css");
+
+@import url("css/core/template/template.css");
+@import url("css/core/template/template_debug.css");
+
+@import url("css/core/grid/grids.css");
+
+@import url("css/core/module/mod.css");
+@import url("css/core/module/mod_skins.css");
+
+@import url("css/core/content.css");
+@import url("css/core/heading/heading.css");
+
+@import url("css/table/table.css");
+@import url("css/table/table_skins.css");
+
+@import url("css/plugins/plugins.css");
