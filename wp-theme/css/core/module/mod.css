@@ -53,9 +53,10 @@ version: 0.2
 .entry .hd { display: block; margin-bottom: 10px; }
 .entry .hd .h2 { font-size: 231%; line-height: 160%; }
 .entry .hd .attrbs { font-size: 93%; }
+.entry .bd { margin-bottom: 10px; }
 
 
-.meta { margin-top: 20px; background: #ebebeb; -moz-border-radius: 10px; display: block; }
-.meta .inner { padding: 10px 10px 10px 10px; }
-.meta .hd { display: block; margin-bottom: 10px; font-family: Vollkorn; text-transform: uppercase; border-bottom: 1px dotted #5f9ea0; }
-.meta .hd .h3 { font-size: 108%; padding-bottom: 5px; text-align: left; }
+.tags { margin-top: 20px; background: #ebebeb; -moz-border-radius: 10px; display: block; }
+.tags .inner { padding: 10px 10px 10px 10px; }
+.tags .hd { display: block; margin-bottom: 10px; font-family: Vollkorn; text-transform: uppercase; border-bottom: 1px dotted #5f9ea0; }
+.tags .hd .h3 { font-size: 108%; padding-bottom: 5px; text-align: left; }
