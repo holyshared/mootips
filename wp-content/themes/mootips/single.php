@@ -67,7 +67,7 @@
 		</div>
 	<?php endif; ?>
 
-</section>
 </div>
+</section>
 
 <?php get_footer(); ?>
