@@ -53,16 +53,10 @@
 							</div>
 						</div>
 					</div>
-
-					<footer class="ft">
-						<ul class="entryLinks">
-							<li><a href="<?php comments_link(); ?>">コメントする</a></li>
-							<li><a href="<?php trackback_url(true); ?>">トラックバック</a></li>
-						</ul>
-					</footer>
-
 				</div>
 			</article>
+
+			<?php comments_template(); ?>
 
 		<?php endwhile; ?>
 	<?php else: ?>
@@ -73,7 +67,7 @@
 		</div>
 	<?php endif; ?>
 
-</div>
 </section>
+</div>
 
 <?php get_footer(); ?>
