@@ -1,4 +1,4 @@
-﻿body{font-family: "ヒラギノ角ゴ Pro W3", Sylfaen, Georgia, "Times New Roman", serif;}
+body{font-family: "ヒラギノ角ゴ Pro W3", Sylfaen, Georgia, "Times New Roman", serif;}
 /* **************** CONTENT OBJECTS ***************** */
 
 /* ====== Elements ====== */
@@ -32,7 +32,6 @@ p, dt, dd { line-height: 160%; }
 body { background: #EEEDC1 url(../../images/bgi_body.jpg) repeat-y center top; }
 
 section { display:block; }
-
 
 .gbnav { width: 358px; display: block; margin-top: 30px; }
 

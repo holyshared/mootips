@@ -20,7 +20,7 @@
 					<div class="lastUnit size3of4">
 						<nav class="gbnav">
 							<ul class="nav">
-								<?php wp_list_categories('title_li=&orderby=ID&exclude=Pendding&hide_empty=0'); ?>
+								<?php wp_list_categories('title_li=&orderby=ID&exclude=1&hide_empty=0'); ?>
 							</ul>
 						</nav>
 					</div>
