@@ -1,14 +1,15 @@
 <?php if ( post_password_required() ) : ?>
-<p><?php _e('Enter your password to view comments.'); ?></p>
+	<p><?php _e('Enter your password to view comments.'); ?></p>
 <?php return; endif; ?>
 
 <?php if ( pings_open() ) : ?>
 
-<section class="mod trackback">
+<section class="mod section">
 	<div class="inner">
-		<header class="hd">
-			<h3>Trackback: </h3><p>It is a comment that has been gotten before. </p>
-		</header>
+		<hgroup class="hd trackback">
+			<h3>トラックバック</h3>
+			<h4>Track back to article</h4>
+		</hgroup>
 		<div class="bd">
 			<p>トラックバックを下記のURLに送ってください。<br /><a href="<?php trackback_url() ?>" rel="trackback"><?php trackback_url() ?></a></p>
 		</div>
@@ -19,12 +20,12 @@
 
 
 <?php if ( have_comments() ) : ?>
-	<section class="mod comments">
+	<section class="mod section">
 		<div class="inner">
-			<header class="hd">
-				<h3>Comment: </h3>
-				<p>It is a comment that has been gotten before. </p>
-			</header>
+			<hgroup class="hd comments">
+				<h3>コメント</h3>
+				<h4>comments</h4>
+			</hgroup>
 			<div class="bd">
 				<?php foreach ($comments as $comment) : ?>
 					<?php
@@ -51,12 +52,12 @@
 
 <?php if ( comments_open() ) : ?>
 
-<section id="postcomment" class="mod cform">
+<section id="postcomment" class="mod section">
 	<div class="inner">
-		<header class="hd">
-			<h3>Reply:</h3>
-			<p>Please give the comment to this article.</p>
-		</header>
+		<hgroup class="hd cform">
+			<h3>コメントフォーム</h3>
+			<h4>Contribution form of comment</h4>
+		</hgroup>
 
 		<div class="bd">
 
