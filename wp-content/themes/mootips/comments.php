@@ -51,11 +51,11 @@
 
 <?php if ( comments_open() ) : ?>
 
-<section id="postcomment" class="mod commentForm">
+<section id="postcomment" class="mod cform">
 	<div class="inner">
 		<header class="hd">
 			<h3>Reply:</h3>
-			<p>Please give the comment to this article. </p>
+			<p>Please give the comment to this article.</p>
 		</header>
 
 		<div class="bd">

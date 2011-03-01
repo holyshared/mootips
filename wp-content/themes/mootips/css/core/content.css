@@ -32,6 +32,7 @@ p, dt, dd { line-height: 160%; }
 body { background: #EEEDC1 url(../../images/bgi_body.jpg) repeat-y center top; }
 
 section { display:block; }
+article { display:block; }
 
 .gbnav { width: 358px; display: block; margin-top: 30px; }
 

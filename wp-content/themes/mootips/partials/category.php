@@ -6,7 +6,7 @@
 		</hgroup>
 		<div class="bd">
 			<ul class="simpleList">
-				<?php wp_list_categories('title_li=&orderby=ID&exclude=Pendding&hide_empty=0'); ?>
+				<?php wp_list_categories('title_li=&orderby=ID&exclude=1&hide_empty=0'); ?>
 			</ul>
 		</div>
 	</div>

@@ -35,14 +35,19 @@ version: 0.2
 
 
 
-.entry { margin: 0px; padding: 0px; }
-.entry:last-child {	border-bottom: none; }
-.entry .inner { padding: 0px 0px 10px 5px; }
-.entry .hd { display: block; margin-bottom: 10px; }
-.entry .hd .h2 { font-size: 231%; line-height: 160%; }
-.entry .hd .attrbs { font-size: 93%; }
-.entry .bd { margin-bottom: 10px; }
+.excerpt { margin: 0px; padding: 0px; }
+.excerpt:last-child {	border-bottom: none; }
+.excerpt .inner { padding: 0px 0px 10px 5px; }
+.excerpt .hd { display: block; margin-bottom: 10px; }
+.excerpt .hd .h2 { font-size: 231%; line-height: 160%; }
+.excerpt .hd .attrbs { font-size: 93%; }
+.excerpt .bd { margin-bottom: 10px; }
 
+
+.entry .inner { padding-left: 10px; }
+.trackback .inner { padding-left: 10px; }
+.comments .inner { padding-left: 10px; }
+.cform .inner { padding-left: 10px; }
 
 .tags { margin-top: 20px; background: #ebebeb; -moz-border-radius: 10px; display: block; }
 .tags .inner { padding: 10px 10px 10px 10px; }

@@ -11,7 +11,7 @@
 	<?php if (have_posts()) : ?>
 		<?php while (have_posts()) : the_post(); ?>
 
-			<article class="mod entry">
+			<article class="mod excerpt">
 				<div class="inner">
 					<div class="bd">
 						<div class="line">
@@ -46,6 +46,8 @@
 												<ul class="tagList">
 													<?php echo get_the_tag_list('<li>', '</li><li>', '</li>'); ?>
 												</ul>
+											<?php else: ?>
+												<p>タグはありません</p>
 											<?php endif; ?>
 										</div>
 									</div>
