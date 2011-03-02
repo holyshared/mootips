@@ -1,0 +1,18 @@
+!!com.aptana.scripting.model.BundleElement
+author: Noritaka Horio<holy.shared.design@gmail.com>
+children: []
+copyright: Copyright 2010-2011 Noritaka Horio All rights reserved.
+customProperties: null
+decreaseIndentMarkers: &id001 {}
+description: ''
+displayName: Wordpress
+fileTypeRegistry: *id001
+fileTypes: []
+foldingStartMarkers: *id001
+foldingStopMarkers: *id001
+increaseIndentMarkers: *id001
+license: null
+licenseUrl: null
+path: bundle.rb
+repository: http://sharedhat.com
+visible: true
