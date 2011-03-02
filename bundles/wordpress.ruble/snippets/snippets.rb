@@ -4,6 +4,61 @@ require 'ruble'
 # Wordpress Template Tags
 #================================================================
 
+# get_header
+#----------------------------------------------------------------
+
+snippet "get_header()" do |snip|
+
+	snip.trigger = "get_header"
+	snip.expansion = <<END
+<?php echo get_header(); ?>
+END
+
+end
+
+
+# get_footer
+#----------------------------------------------------------------
+
+snippet "get_footer()" do |snip|
+
+	snip.trigger = "get_footer"
+	snip.expansion = <<END
+<?php echo get_footer(); ?>
+END
+
+end
+
+
+# get_sidebar
+#----------------------------------------------------------------
+
+snippet "get_sidebar()" do |snip|
+
+	snip.trigger = "get_sidebar"
+	snip.expansion = <<END
+<?php echo get_sidebar(); ?>
+END
+
+end
+
+
+# comments_template
+#----------------------------------------------------------------
+
+snippet "comments_template()" do |snip|
+
+	snip.trigger = "comments_template"
+	snip.expansion = <<END
+<?php comments_template(); ?>
+END
+
+end
+
+
+
+
+
 # register_sidebar
 #----------------------------------------------------------------
 
@@ -25,6 +80,25 @@ if (function_exists('register_sidebar')) {
 END
 
 end
+
+
+# dynamic_sidebar
+#----------------------------------------------------------------
+
+snippet "dynamic_sidebar()" do |snip|
+
+	snip.trigger = "dynamic_sidebar"
+	snip.expansion = <<END
+<ul>
+<?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar()) : ?>
+<!-- Widgets -->
+<?php endif; ?>
+</ul>
+END
+
+end
+
+
 
 
 # wp_list_categories
@@ -93,25 +167,6 @@ END
 end
 
 
-# dynamic_sidebar
-#----------------------------------------------------------------
-
-snippet "dynamic_sidebar()" do |snip|
-
-	snip.trigger = "dynamic_sidebar"
-	snip.expansion = <<END
-<ul>
-<?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar()) : ?>
-<!-- Widgets -->
-<?php endif; ?>
-</ul>
-END
-
-end
-
-
-
-
 # get_avatar
 #----------------------------------------------------------------
 
@@ -124,45 +179,6 @@ snippet "get_avatar()" do |snip|
 	$url = get_the_author_meta('user_url');
 ?>
 <a class="author" title="<?php the_author(); ?>" href="<?php echo $url; ?>"><?php echo get_avatar($email, '20'); ?><?php the_author(); ?></a>
-END
-
-end
-
-
-# get_header
-#----------------------------------------------------------------
-
-snippet "get_header()" do |snip|
-
-	snip.trigger = "get_header"
-	snip.expansion = <<END
-<?php echo get_header(); ?>
-END
-
-end
-
-
-# get_footer
-#----------------------------------------------------------------
-
-snippet "get_footer()" do |snip|
-
-	snip.trigger = "get_footer"
-	snip.expansion = <<END
-<?php echo get_footer(); ?>
-END
-
-end
-
-
-# get_sidebar
-#----------------------------------------------------------------
-
-snippet "get_sidebar()" do |snip|
-
-	snip.trigger = "get_sidebar"
-	snip.expansion = <<END
-<?php echo get_sidebar(); ?>
 END
 
 end
@@ -216,19 +232,6 @@ snippet "have_posts()" do |snip|
 <?php else: ?>
 
 <?php endif; ?>
-END
-
-end
-
-
-# comments_template
-#----------------------------------------------------------------
-
-snippet "comments_template()" do |snip|
-
-	snip.trigger = "comments_template"
-	snip.expansion = <<END
-<?php comments_template(); ?>
 END
 
 end
