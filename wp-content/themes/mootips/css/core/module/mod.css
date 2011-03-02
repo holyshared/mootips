@@ -37,11 +37,14 @@ version: 0.2
 .excerpt { margin: 0px 0px 20px 0px; padding: 0px; }
 .excerpt:last-child {	border-bottom: none; }
 .excerpt .inner { padding: 0px 0px 10px 5px; }
-.excerpt .hd { display: block; margin-bottom: 10px; }
+.excerpt .hd { display: block; margin-bottom: 10px; border-bottom: 2px dotted #cccccc; padding: 10px; }
 .excerpt .hd .h2 { font-size: 231%; font-weight: bold; line-height: 160%; }
 .excerpt .hd .attrbs { font-size: 93%; }
-.excerpt .bd { margin-bottom: 10px; }
+.excerpt .bd { margin-bottom: 10px; padding: 0px 10px; }
 
+
+.neighbors { display:block; margin-bottom: 15px; }
+.neighbors .inner { padding-left: 10px; }
 
 .section { margin-bottom: 15px; }
 .section .inner { padding-left: 10px; }

@@ -35,9 +35,19 @@
 				</div>
 			</article>
 
+			<aside class="mod neighbors">
+				<div class="inner">
+					<ul class="pager buttons">
+						<li class="prev"><?php previous_post_link_short('%link', '&laquo; %title', TRUE, null, 30, null) ?></li>
+						<li class="next"><?php next_post_link_short('%link', '%title &raquo;', TRUE, null, 30, null) ?></li>
+					</ul>
+				</div>
+			</aside>
+
 			<?php comments_template(); ?>
 
 		<?php endwhile; ?>
+
 	<?php else: ?>
 		<div class="mod empty">
 			<div class="inner">

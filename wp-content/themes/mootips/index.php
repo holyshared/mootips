@@ -61,7 +61,7 @@
 					</div>
 
 					<footer class="ft">
-						<ul class="entryLinks">
+						<ul class="entryLinks buttons">
 							<li><a href="<?php comments_link(); ?>">コメントする</a></li>
 							<li><a href="<?php trackback_url(true); ?>">トラックバック</a></li>
 						</ul>
@@ -81,5 +81,6 @@
 
 </div>
 </section>
+
 
 <?php get_footer(); ?>
