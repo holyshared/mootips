@@ -23,16 +23,13 @@ cite{display:block; text-align:right; padding-top: 10px;}
 
 p, dt, dd { line-height: 160%; }
 
-
+body { background: #EEEDC1 url(../../images/bgi_body.jpg) repeat-y center top; }
+section { display:block; }
+article { display:block; }
 
 .head { background: #33291C; display:block; border-bottom: 5px solid #4C3E28; padding: 0px 0px 17px 0px; margin-bottom: 15px; }
 .body { margin: 0px auto; }
 .foot { background: #33291C; display:block; border-top: 5px solid #4C3E28; padding: 0px 0px 0px 0px; color: #ffffff; }
-
-body { background: #EEEDC1 url(../../images/bgi_body.jpg) repeat-y center top; }
-
-section { display:block; }
-article { display:block; }
 
 .gbnav { width: 358px; display: block; margin-top: 30px; }
 
@@ -46,41 +43,19 @@ article { display:block; }
 .nav li:first-child a { -moz-border-radius-topleft: 3px; -moz-border-radius-bottomleft: 3px; }
 .nav li:last-child a { -moz-border-radius-topright: 3px; -moz-border-radius-bottomright: 3px }
 
-.attrbs {
-	overflow: hidden;
-}
-.attrbs dt {
-	float: left;
-	margin-right: 5px;
-}
-.attrbs dd {
-	float: left;
-	margin-right: 10px;
-}
-
+.attrbs { overflow: hidden; }
+.attrbs dt { text-transform: uppercase; float: left; margin-right: 5px; }
+.attrbs dd { float: left; margin-right: 10px; }
 
 .discription { font-size: 93%; }
 .copyright {text-align: center; padding-bottom: 10px; }
 
 .license {text-align: center;}
-
-
 .tagList { font-size: 93%; }
 
-.entryLinks {
-	float: right;
-	margin-right: 10px;
-}
-.entryLinks li {
-	display: inline-block;
-	margin-left: 5px;
-}
-.entryLinks li a {
-	-moz-border-radius: 5px;
-	background: #cccccc;
-	padding: 5px 15px;
-}
-
+.entryLinks { float: right; margin-right: 10px; }
+.entryLinks li { display: inline-block; margin-left: 5px; }
+.entryLinks li a { -moz-border-radius: 5px; background: #cccccc; padding: 5px 15px; }
 
 .author { /*display: inline-block; background: #f6f6f6; padding: 5px 10px;*/ }
-.author img { vertical-align: middle; display: inline; padding: 1px; background: #ffffff; border: 1px solid #cccccc; }
+.author img { vertical-align: middle; display: inline; padding: 1px; background: #ffffff; border: 1px solid #cccccc; margin-right: 5px; }
