@@ -1,16 +1,16 @@
 !!com.aptana.scripting.model.BundleElement
-author: Noritaka Horio<holy.shared.design@gmail.com>
+author: null
 children: []
-copyright: Copyright 2010-2011 Noritaka Horio All rights reserved.
+copyright: null
 customProperties: null
-decreaseIndentMarkers: &id001 {}
-description: ''
+decreaseIndentMarkers: {}
+description: null
 displayName: Wordpress
-fileTypeRegistry: *id001
+fileTypeRegistry: {}
 fileTypes: []
-foldingStartMarkers: *id001
-foldingStopMarkers: *id001
-increaseIndentMarkers: *id001
+foldingStartMarkers: {}
+foldingStopMarkers: {}
+increaseIndentMarkers: {}
 license: null
 licenseUrl: null
 path: bundle.rb
