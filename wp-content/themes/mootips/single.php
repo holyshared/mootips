@@ -20,19 +20,17 @@
 							<dd><?php the_author_link(); ?></dd>
 							<dt>posted:</dt>
 							<dd><?php the_date(); ?></dd>
+							<?php if (get_the_tag_list()) : ?>
+								<dt>tags:</dt>
+								<dd>
+									<?php echo the_tags(''); ?>
+								</dd>
+							<?php endif; ?>
 						</dl>
 					</header>
 
 					<div class="bd">
 						<?php the_content(); ?>
-
-						<?php if (get_the_tag_list()) : ?>
-							<ul class="tagList">
-								<?php echo get_the_tag_list('<li>', '</li><li>', '</li>'); ?>
-							</ul>
-						<?php else: ?>
-							<p>タグはありません</p>
-						<?php endif; ?>
 					</div>
 				</div>
 			</article>

@@ -43,7 +43,7 @@ article { display:block; }
 .nav li:first-child a { -moz-border-radius-topleft: 3px; -moz-border-radius-bottomleft: 3px; }
 .nav li:last-child a { -moz-border-radius-topright: 3px; -moz-border-radius-bottomright: 3px }
 
-.attrbs { overflow: hidden; }
+.attrbs { overflow: hidden; font-family: Vollkorn, Sylfaen, Georgia, "Times New Roman", serif; }
 .attrbs dt { text-transform: uppercase; float: left; margin-right: 5px; }
 .attrbs dd { float: left; margin-right: 10px; }
 
@@ -55,7 +55,28 @@ article { display:block; }
 
 .entryLinks { float: right; margin-right: 10px; }
 .entryLinks li { display: inline-block; margin-left: 5px; }
-.entryLinks li a { -moz-border-radius: 5px; background: #cccccc; padding: 5px 15px; }
+.entryLinks li a {
+	font-weight: bold;
+	-moz-border-radius: 5px; 
+	border: 1px solid #cccccc;
+	padding: 5px 15px;
+ 	background: #ffffff;
+	background: -moz-linear-gradient(
+		center bottom,
+    	#e9e9e9 0%,
+    	#ffffff 80%,
+    	#ffffff 100%
+	);
+	background: -webkit-gradient(
+    	linear,
+    	left 80%,
+    	left top,
+    	color-stop(0, #e9e9e9),
+    	color-stop(1, #ffffff),
+    	color-stop(1, #ffffff)
+	);
+ 
+}
 
 .author { /*display: inline-block; background: #f6f6f6; padding: 5px 10px;*/ }
 .author img { vertical-align: middle; display: inline; padding: 1px; background: #ffffff; border: 1px solid #cccccc; margin-right: 5px; }
