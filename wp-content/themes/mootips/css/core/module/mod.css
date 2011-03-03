@@ -46,6 +46,9 @@ version: 0.2
 .neighbors { display:block; margin-bottom: 15px; }
 .neighbors .inner { padding-left: 10px; }
 
+.social {display:block; margin-bottom: 15px;}
+.social .inner { padding-left: 10px; }
+
 .section { margin-bottom: 15px; }
 .section .inner { padding-left: 10px; }
 

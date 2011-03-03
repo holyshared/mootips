@@ -53,7 +53,7 @@ article { display:block; }
 .license {text-align: center;}
 .tagList { font-size: 93%; }
 
-.entryLinks { float: right; margin-right: 10px; }
+.entryLinks { float: right; margin-right: 10px; margin-left: 10px; }
 .entryLinks li { display: inline-block; margin-left: 5px; }
 
 
@@ -94,3 +94,7 @@ article { display:block; }
 
 .author { /*display: inline-block; background: #f6f6f6; padding: 5px 10px;*/ }
 .author img { vertical-align: middle; display: inline; padding: 1px; background: #ffffff; border: 1px solid #cccccc; margin-right: 5px; }
+
+.bookmarks { overflow:hidden; float:right; }
+.bookmarks li { float: left; margin-right: 10px; }
+
