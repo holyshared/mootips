@@ -43,7 +43,7 @@ article { display:block; }
 .nav li:first-child a { -moz-border-radius-topleft: 3px; -moz-border-radius-bottomleft: 3px; }
 .nav li:last-child a { -moz-border-radius-topright: 3px; -moz-border-radius-bottomright: 3px }
 
-.attrbs { overflow: hidden; font-family: Vollkorn, Sylfaen, Georgia, "Times New Roman", serif; }
+.attrbs { overflow: hidden; }
 .attrbs dt { text-transform: uppercase; float: left; margin-right: 5px; }
 .attrbs dd { float: left; margin-right: 10px; }
 
