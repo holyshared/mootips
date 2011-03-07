@@ -68,6 +68,6 @@ version: 0.2
 .section .cform { padding-left: 35px; background: url(../../../images/bgi_form.gif) no-repeat left center; margin-bottom: 10px; }
 
 .tags { margin-top: 20px; background: #ebebeb; -moz-border-radius: 10px; display: block; }
-.tags .inner { padding: 10px 10px 10px 10px; }
-.tags .hd { display: block; margin-bottom: 10px; font-family: Vollkorn; text-transform: uppercase; border-bottom: 1px dotted #5f9ea0; }
-.tags .hd .h3 { font-size: 108%; padding-bottom: 5px; text-align: left; }
+.tags .inner { padding: 5px 10px 5px 10px; }
+.tags .hd { display: block; margin-bottom: 10px; text-transform: uppercase; border-bottom: 1px dotted #5f9ea0; }
+.tags .hd .h3 { font-size: 108%; padding-bottom: 0px; text-align: left; }

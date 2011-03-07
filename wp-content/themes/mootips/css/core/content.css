@@ -56,20 +56,16 @@ article { display:block; }
 .entryLinks { float: right; margin-right: 10px; margin-left: 10px; }
 .entryLinks li { display: inline-block; margin-left: 5px; }
 
-
 .pager { overflow: hidden; }
 .pager .prev { float: left; text-align: left; width: 48%; }
 .pager .next { float: right; text-align: right; width: 48%; }
-
-
-
 
 .buttons li a {
 	display: inline-block;
 	font-weight: bold;
 	-moz-border-radius: 5px; 
 	border: 1px solid #cccccc;
-	padding: 5px 15px;
+	padding: 7px 15px;
  	background: #ffffff;
 	background: -moz-linear-gradient(
 		center bottom,
@@ -87,14 +83,10 @@ article { display:block; }
 	);
 }
 
-
-
-
-
-
 .author { /*display: inline-block; background: #f6f6f6; padding: 5px 10px;*/ }
 .author img { vertical-align: middle; display: inline; padding: 1px; background: #ffffff; border: 1px solid #cccccc; margin-right: 5px; }
 
-.bookmarks { overflow:hidden; float:right; }
-.bookmarks li { float: left; margin-right: 10px; }
-
+.bookmarks { overflow:hidden; margin-bottom: 20px; padding: 10px; border-top: 2px dotted #cccccc; text-align: left; }
+.bookmarks li { display: inline-block; }
+.bookmarks li a { display: inline-block; margin-left: 5px; }
+.bookmarks li a img { vertical-align: bottom; }

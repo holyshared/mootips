@@ -38,13 +38,9 @@
 			<aside class="mod social">
 				<div class="inner">
 
-<ul class="bookmarks">
-	<li><a href="http://b.hatena.ne.jp/append?<?php the_permalink(); ?>" title="このエントリーを含むはてなブックマーク" target="_blank">はてなブックマーク</a></li>
-	<li><a title="It shares with Facebook." href="http://www.facebook.com/sharer.php?u=<?php the_permalink();?>&t=<?php the_title(); ?>" target="_blank"><img title="Facebook" alt="Facebook" src="<?php bloginfo('template_directory') ?>/images/buttons/facebook.png" /></a></li>
-	<li><a title="It shares with Delicious."  href="http://delicious.com/post?url=<?php the_permalink();?>&title=<?php the_title();?>" target="_blank"><img title="Delicious" alt="Delicious" src="<?php bloginfo('template_directory') ?>/images/buttons/delicious.png" /></a></li>
-	<li><a title="It shares with Digg." href="http://www.digg.com/submit?phase=2&url=<?php the_permalink();?>" target="_blank"><img title="Digg" alt="Digg" src="<?php bloginfo('template_directory') ?>/images/buttons/digg.png" /></a></li>
-	<li><a title="It shares with StumbleUpon." href="http://www.stumbleupon.com/submit?url=<?php the_permalink(); ?>&title=<?php the_title(); ?>" target="_blank"><img title="StumbleUpon" alt="StumbleUpon" src="<?php bloginfo('template_directory') ?>/images/buttons/stumbleupon.png" /></a></li>
-</ul>
+					<ul class="bookmarks">
+						<?php include 'partials/bookmarks.php' ?>
+					</ul>
 
 				</div>
 			</aside>
