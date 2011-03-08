@@ -50,7 +50,7 @@ article { display:block; }
 .discription { font-size: 93%; }
 .copyright {text-align: center; padding-bottom: 10px; }
 
-.license {text-align: center;}
+.license { text-align: center; border-top: 1px solid #4C3E28; padding-top: 15px; margin-top: 10px; }
 .tagList { font-size: 93%; }
 
 .entryLinks { float: right; margin-right: 10px; margin-left: 10px; }

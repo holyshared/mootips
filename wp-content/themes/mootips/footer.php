@@ -32,6 +32,15 @@
 						<h4>athour</h4>
 					</header>
 					<div class="bd">
+
+<?php
+	$userid = 1;
+	$email = get_the_author_meta('user_email', $userid);
+	$userurl = get_the_author_meta('user_url', $userid);
+	$username = get_the_author_meta('user_firstname', $userid) . ' ' . get_the_author_meta('user_lastname', $userid);
+?>
+<p><a class="author" title="<?php echo $username; ?>" href="<?php echo $userurl; ?>"><?php echo get_avatar($email, '50'); ?><?php echo $username; ?></a></p>
+
 					</div>
 				</div>
 			</section>
