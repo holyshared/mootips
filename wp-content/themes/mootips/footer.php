@@ -54,7 +54,7 @@
 		</div>
 	</aside>
 	<footer>
-		<p class="license">This site is licensed under a Creative Commons License But, a part of contents is excluded.<br />Powered by WordPress</p>
+		<p class="license gs960">This site is licensed under a Creative Commons License But, a part of contents is excluded.<br />Powered by WordPress</p>
 		<p class="copyright">copyright 2010 Noritaka Horio all right reserved.</p>
 	</footer>
 </div>

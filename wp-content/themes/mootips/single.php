@@ -16,8 +16,12 @@
 					<header class="hd">
 						<h2 class="h2"><a title="<?php the_title(); ?>" href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
 						<dl class="attrbs">
+							<?php
+								$email = get_the_author_meta('user_email');
+								$url = get_the_author_meta('user_url');
+							?>
 							<dt>author:</dt>
-							<dd><?php the_author_link(); ?></dd>
+							<dd><a class="author" title="<?php the_author(); ?>" href="<?php echo $url; ?>"><?php echo get_avatar($email, '20'); ?><?php the_author(); ?></a></dd>
 							<dt>posted:</dt>
 							<dd><?php the_date(); ?></dd>
 							<?php if (get_the_tag_list()) : ?>

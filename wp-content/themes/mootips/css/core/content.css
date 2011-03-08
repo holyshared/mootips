@@ -50,7 +50,7 @@ article { display:block; }
 .discription { font-size: 93%; }
 .copyright {text-align: center; padding-bottom: 10px; }
 
-.license { text-align: center; border-top: 1px solid #4C3E28; padding-top: 15px; margin-top: 10px; }
+.license { text-align: center; border-top: 1px solid #4C3E28; padding-top: 15px; margin: 10px auto 10px auto; }
 .tagList { font-size: 93%; }
 
 .entryLinks { float: right; margin-right: 10px; margin-left: 10px; }
@@ -96,3 +96,9 @@ article { display:block; }
 
 .services { display:inline-block; }
 .services li { float:left; margin-left: 5px; }
+
+.comment { margin-bottom: 10px; }
+.comment .hd { padding-left: 60px; position: relative; border: none; }
+.comment .hd h4 { font-size: 123.1%; }
+.comment .hd .author { display:inline; float: left; position: absolute; left: 0px; top: 8px; }
+.comment .bd { padding: 0px 0px 15px 0px; border-bottom: 1px dotted #cccccc; }

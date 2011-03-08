@@ -32,13 +32,15 @@
 						$author		= get_comment_author();
 						$authorURL	= get_comment_author_url();
 					?>
-					<article <?php comment_class(); ?> id="comment-<?php comment_ID() ?>">
+					<article class="comment" <?php comment_class(); ?> id="comment-<?php comment_ID() ?>">
 						<header class="hd">
 							<h4><a title="<?php echo $author ?>" href="<?php echo $authorURL ?>"><?php echo $author ?></a></h4>
-							<p class="url"><a href="<?php echo $authorURL ?>"><?php echo $authorURL ?></a></p>
+							<p class="attrbs">Comment at: <?php comment_date() ?></p>
+							<p class="author"><a title="<?php echo $author ?>" href="<?php echo $authorURL ?>"><?php echo get_avatar( $comment, 40); ?></a></p>
 						</header>
-						<p class="photo author"><a title="<?php echo $author ?>" href="<?php echo $authorURL ?>"><?php echo get_avatar( $comment, 60); ?></a></p>
-						<?php comment_text() ?>
+						<div class="bd">
+							<?php comment_text() ?>
+						</div>
 					</article>
 				<?php endforeach; ?>
 			</div>
