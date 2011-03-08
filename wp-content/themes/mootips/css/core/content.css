@@ -83,10 +83,16 @@ article { display:block; }
 	);
 }
 
-.author { /*display: inline-block; background: #f6f6f6; padding: 5px 10px;*/ }
-.author img { vertical-align: middle; display: inline; padding: 1px; background: #ffffff; border: 1px solid #cccccc; margin-right: 5px; }
+.author img { float:left; vertical-align: middle; display: inline; padding: 1px; background: #ffffff; border: 1px solid #cccccc; margin-right: 5px; }
 
 .bookmarks { overflow:hidden; margin-bottom: 20px; padding: 10px; border-top: 2px dotted #cccccc; text-align: left; }
 .bookmarks li { display: inline-block; }
 .bookmarks li a { display: inline-block; margin-left: 5px; }
 .bookmarks li a img { vertical-align: bottom; }
+
+.master { display:inline-block; width: 150px; }
+.master a { color: #ffffff; }
+.master img { float:left; vertical-align: middle; display: inline; padding: 1px; background: #ffffff; border: 1px solid #cccccc; margin-right: 10px; }
+
+.services { display:inline-block; }
+.services li { float:left; margin-left: 5px; }
