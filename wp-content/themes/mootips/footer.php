@@ -4,10 +4,14 @@
 		<div class="unit size1of5">
 			<section class="mod">
 				<div class="inner">
-					<header class="hd fs">
-						<h4>categories</h4>
-					</header>
+					<hgroup class="hd fs">
+						<h4>カテゴリー</h4>
+						<h5>Category of contents</h5>
+					</hgroup>
 					<div class="bd">
+						<ul class="simpleList">
+							<?php wp_list_categories('title_li=&orderby=ID&exclude=1&hide_empty=0'); ?>
+						</ul>
 					</div>
 				</div>
 			</section>
@@ -15,9 +19,10 @@
 		<div class="unit size2of5">
 			<section class="mod">
 				<div class="inner">
-					<header class="hd fs">
-						<h4>about</h4>
-					</header>
+					<hgroup class="hd fs">
+						<h4>サイトについて</h4>
+						<h5>About this site</h5>
+					</hgroup>
 					<div class="bd">
 						<p>このサイトは堀尾典孝が運営しているMootools、Javascriptに関するトピックスを掲載しています。</p>
 						<p>Mootoolsを詳しく知りたい人向けに実践的な情報を提供し、情報を共有することを目的に運営しています。</p>
@@ -28,9 +33,10 @@
 		<div class="unit size2of5">
 			<section class="mod">
 				<div class="inner">
-					<header class="hd fs">
-						<h4>athour</h4>
-					</header>
+					<hgroup class="hd fs">
+						<h4>運営者</h4>
+						<h5>Owner on site</h5>
+					</hgroup>
 					<div class="bd">
 
 <?php
@@ -55,7 +61,7 @@
 	</aside>
 	<footer>
 		<p class="license gs960">This site is licensed under a Creative Commons License But, a part of contents is excluded.<br />Powered by WordPress</p>
-		<p class="copyright">copyright 2010 Noritaka Horio all right reserved.</p>
+		<p class="copyright">copyright 2011 <a title="<?php echo $username ?>" href="<?php echo $userurl ?>"><?php echo $username ?></a> all right reserved.</p>
 	</footer>
 </div>
 

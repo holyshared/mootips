@@ -3,10 +3,14 @@
 	<head>
 		<meta charset="<?php bloginfo('charset'); ?>" />
 		<title><?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo('name'); ?></title>
+		<?php wp_head(); ?>
+		<meta name="google-site-verification" content="ziFSqHxGurCR_aaEu2rnqtQrtT7PIewXaz7mOuCUwaI" />
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster:regular,italic,bold&amp;subset=latin" type="text/css" />
 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Vollkorn:regular,italic,bold&amp;subset=latin" type="text/css" />
-		<script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/ga.js"></script>
+		<script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/lib/mootools-core.js"></script>
+		<script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/lib/mootools-more.js"></script>
+		<script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/mootips.js"></script>
 	</head>
 	<body>
 
@@ -26,3 +30,4 @@
 					</div>
 				</div>
 			</header>
+

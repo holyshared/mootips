@@ -9,15 +9,15 @@ hr{border: 5px solid #e2e2e2; border-width: 0 0 5px 0; margin: 20px 10px 10px 10
 code{color:#0B8C8F;}
 
 /* links */
-a {color: #2c4460; text-decoration: none;}
+a {color: #2c4460; }
 a:focus, a:hover {text-decoration: underline;}
 a:focus{background-color:#FFFFCC;}
 a:visited { color:#005a9c; }
 /* ====== Lists ======*/
 /* numbered list */
-ol.simpleList li{list-style-type: decimal; margin-left:20px; line-height: 160%; }
+ol.simpleList li{list-style-type: decimal; margin-left:20px; line-height: 160%; margin-bottom: 5px; }
 /* standard list */
-ul.simpleList li{list-style-type:disc; margin-left:20px; line-height: 160%; }
+ul.simpleList li{list-style-type:disc; margin-left:20px; line-height: 160%;margin-bottom: 5px; }
 /* ====== blockquote ====== */
 cite{display:block; text-align:right; padding-top: 10px;}
 
@@ -29,7 +29,11 @@ article { display:block; }
 
 .head { background: #33291C; display:block; border-bottom: 5px solid #4C3E28; padding: 0px 0px 17px 0px; margin-bottom: 15px; }
 .body { margin: 0px auto; }
-.foot { background: #33291C; display:block; border-top: 5px solid #4C3E28; padding: 0px 0px 0px 0px; color: #ffffff; }
+.foot { background: #33291C; display:block; border-top: 5px solid #4C3E28; padding: 10px 0px 0px 0px; color: #ffffff; }
+
+
+.foot a { color: #ffffff; text-decoration: underline; }
+
 
 .gbnav { width: 358px; display: block; margin-top: 30px; }
 
