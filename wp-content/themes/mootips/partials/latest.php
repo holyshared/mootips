@@ -13,7 +13,7 @@
 						<li><?php the_date(); ?><br /><a title="<?php the_title(); ?>" href="<?php the_permalink() ?>" class="internal"><?php the_title(); ?></a></li>
 					<?php endforeach; ?>
 				<?php else: ?>
-					<li><?php _e('Sorry, no posts matched your criteria.'); ?></li>
+					<li>最新の投稿はありません。</li>
 				<?php endif; ?>
 			</ul>
 		</div>
