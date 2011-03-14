@@ -48,10 +48,10 @@
 <p class="master"><a title="<?php echo $username; ?>" href="<?php echo $userurl; ?>"><?php echo get_avatar($email, '40'); ?>堀尾典孝<br /><?php echo $username; ?></a></p>
 <ul class="services">
 	<li class="facebook"><a href="http://www.facebook.com/profile.php?id=100000154147844" title="Facebook"><img title="Facebook" alt="Facebook" src="<?php echo bloginfo('template_directory') ?>/images/profiles/facebook.png" /></a></li>
-	<li class="twitter"><a href="http://twitter.com/holydesign" title=""><img title="Twitter" alt="Twitter" src="<?php echo bloginfo('template_directory') ?>/images/profiles/twitter.png" /></a></li>
-	<li class="tumblr"><a href="http://holyshared.tumblr.com/" title=""><img title="Tumblr" alt="Tumblr" src="<?php echo bloginfo('template_directory') ?>/images/profiles/tumblr.png" /></a></li>
-	<li class="flickr"><a href="http://www.flickr.com/photos/42458742@N06/" title=""><img title="flickr" alt="flickr" src="<?php echo bloginfo('template_directory') ?>/images/profiles/flickr.png" /></a></li>
-	<li class="lastfm"><a href="http://www.lastfm.jp/user/holyshared" title=""><img title="LastFm" alt="LastFm" src="<?php echo bloginfo('template_directory') ?>/images/profiles/lastfm.png" /></a></li>
+	<li class="twitter"><a href="http://twitter.com/holydesign" title="Twitter"><img title="Twitter" alt="Twitter" src="<?php echo bloginfo('template_directory') ?>/images/profiles/twitter.png" /></a></li>
+	<li class="tumblr"><a href="http://holyshared.tumblr.com/" title="Tumblr"><img title="Tumblr" alt="Tumblr" src="<?php echo bloginfo('template_directory') ?>/images/profiles/tumblr.png" /></a></li>
+	<li class="flickr"><a href="http://www.flickr.com/photos/42458742@N06/" title="Flickr"><img title="Flickr" alt="Flickr" src="<?php echo bloginfo('template_directory') ?>/images/profiles/flickr.png" /></a></li>
+	<li class="lastfm"><a href="http://www.lastfm.jp/user/holyshared" title="Last.fm"><img title="Last.fm" alt="Last.fm" src="<?php echo bloginfo('template_directory') ?>/images/profiles/lastfm.png" /></a></li>
 </ul>
 
 					</div>
