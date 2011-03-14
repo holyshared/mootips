@@ -11,7 +11,7 @@ code{color:#0B8C8F;}
 /* links */
 a {color: #2c4460; }
 a:focus, a:hover {text-decoration: underline;}
-a:focus{background-color:#FFFFCC;}
+/*a:focus{background-color:#FFFFCC;}*/
 a:visited { color:#005a9c; }
 /* ====== Lists ======*/
 /* numbered list */
