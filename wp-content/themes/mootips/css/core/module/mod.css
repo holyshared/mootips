@@ -12,7 +12,7 @@ version: 0.2
 .inner{position:relative;}
 
 .aside .hd { padding: 10px 15px 15px 45px; -moz-border-radius: 5px; background: #696B73 url(../../../images/bgi_head_aside.gif) no-repeat 10px center; display: block; margin-bottom: 10px; }
-.aside .hd .h3 { font-family: "ヒラギノ角ゴ Pro W3", Sylfaen, Georgia, "Times New Roman", serif; font-size: 123.1%; font-weight:bold; text-transform: uppercase; line-height: 160%; color: #ffffff;  }
+.aside .hd .h3 { font-family: "ヒラギノ角ゴ Pro W3", Sylfaen, Georgia, "Times New Roman", serif; font-size: 123.1%; font-weight:bold; text-transform: uppercase; line-height: 160%; color: #ffffff; margin-bottom: 0px; }
 .aside .hd .h4 { font-family: Vollkorn, Sylfaen, Georgia, "Times New Roman", serif; font-size: 77%; text-transform: uppercase; color: #ffffff;  }
 .aside .hd:before {
 	content: "\00a0";
@@ -61,6 +61,11 @@ version: 0.2
 .entry .hd { margin-bottom: 10px; /*border-bottom: none; */ }
 .entry .hd h2 { font-size: 231%; font-weight: bold; line-height: 160%; }
 
+.entry .bd section { margin-bottom: 30px; }
+.entry .bd p { margin-bottom: 15px; }
+
+
+
 .comment .hd { border-left: none; padding-left: 0px; }
 
 .section .comments { padding-left: 35px; background: url(../../../images/bgi_comment.gif) no-repeat left center; margin-bottom: 10px; }
@@ -70,4 +75,4 @@ version: 0.2
 .tags { margin-top: 20px; background: #ebebeb; -moz-border-radius: 10px; display: block; }
 .tags .inner { padding: 5px 10px 5px 10px; }
 .tags .hd { display: block; margin-bottom: 10px; text-transform: uppercase; border-bottom: 1px dotted #5f9ea0; }
-.tags .hd .h3 { font-size: 108%; padding-bottom: 0px; text-align: left; }
+.tags .hd .h3 { font-size: 108%; padding-bottom: 0px; text-align: left; margin-bottom: 0px; }

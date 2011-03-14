@@ -56,6 +56,7 @@ article { display:block; }
 
 .license { text-align: center; border-top: 1px solid #4C3E28; padding-top: 15px; margin: 10px auto 10px auto; }
 .tagList { font-size: 93%; }
+.tagList li { margin-bottom: 5px; }
 
 .entryLinks { float: right; margin-right: 10px; margin-left: 10px; }
 .entryLinks li { display: inline-block; margin-left: 5px; }
