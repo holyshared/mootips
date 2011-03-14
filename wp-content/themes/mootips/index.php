@@ -28,7 +28,7 @@
 												<dt>author:</dt>
 												<dd><a class="author" title="<?php the_author(); ?>" href="<?php echo $url; ?>"><?php echo get_avatar($email, '20'); ?><?php the_author(); ?></a></dd>
 												<dt>posted:</dt>
-												<dd><?php the_date(); ?></dd>
+												<dd><?php the_time('Y年n月j日 H:i:s'); ?></dd>
 											</dl>
 										</header>
 										<div class="bd">
