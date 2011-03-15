@@ -32,7 +32,7 @@
 											</dl>
 										</header>
 										<div class="bd">
-											<?php the_content(); ?>
+											<?php the_content('続きを読む ...'); ?>
 										</div>
 									</div>
 								</div>
