@@ -8,6 +8,9 @@ window.addEvent('domready', function(){
 				title = element.get('html');
 			}
 			return title;
+		},
+		text: function(element){
+			return element.getProperty('href');
 		}
 	});
 	tips.attach('a');

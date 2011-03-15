@@ -61,7 +61,7 @@
 	</aside>
 	<footer>
 		<p class="license gs960">This site is licensed under a Creative Commons License But, a part of contents is excluded.<br />Powered by WordPress</p>
-		<p class="copyright">copyright 2011 <a title="<?php echo $username ?>" href="<?php echo $userurl ?>"><?php echo $username ?></a> all right reserved.</p>
+		<p class="copyright">Copyright (C) 2011 <a title="<?php echo $username ?>" href="<?php echo $userurl ?>"><?php echo $username ?></a> All Rights Reserved.</p>
 	</footer>
 </div>
 
