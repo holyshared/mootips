@@ -41,7 +41,7 @@ version: 0.2
 .excerpt .hd .h2 { font-size: 231%; font-weight: bold; line-height: 160%; }
 .excerpt .hd .attrbs { font-size: 93%; }
 .excerpt .bd { margin-bottom: 10px; padding: 0px 10px; }
-
+.excerpt .bd p { margin-bottom: 15px; }
 
 .neighbors { display:block; margin-bottom: 15px; }
 .neighbors .inner { padding-left: 10px; }

@@ -66,34 +66,32 @@
 			<?php if ( get_option('comment_registration') && !is_user_logged_in() ) : ?>
 				<p><?php printf(__('You must be <a href="%s">logged in</a> to post a comment.'), wp_login_url( get_permalink() ) );?></p>
 			<?php else : ?>
-				<form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post">
+				<form class="form" action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post">
 					<?php if ( is_user_logged_in() ) : ?>
 						<p><?php printf(__('Logged in as %s.'), '<a href="'.get_option('siteurl').'/wp-admin/profile.php">'.$user_identity.'</a>'); ?> <a href="<?php echo wp_logout_url(get_permalink()); ?>" title="<?php _e('Log out of this account') ?>"><?php _e('Log out &raquo;'); ?></a></p>
 					<?php else : ?>
+						<?php
+							$req = get_option( 'require_name_email' );
+							$aria_req = ( $req ? 'aria-required="true"' : '' );
+						?>
 						<fieldset>
 							<input type="hidden" name="comment_post_ID" value="<?php echo $id; ?>" />
-							<ul>
-								<li>
-									<label for="author"><strong>name<?php if ($req) '(required)' ?></strong></label><br />
-									<input type="text" name="author" id="author" value="<?php echo esc_attr($comment_author); ?>" size="33" tabindex="1" />
-								</li>
-								<li>
-									<label for="email"><strong>email<?php if ($req) '(required)'; ?></strong></label><br />
-									<input type="text" name="email" id="email" value="<?php echo esc_attr($comment_author_email); ?>" size="33" tabindex="2" />
-								</li>
-								<li>
-									<label for="url"><strong>url</strong></label><br />
-									<input type="text" name="url" id="url" value="<?php echo esc_attr($comment_author_url); ?>" size="33" tabindex="3" />
-								</li>
-							</ul>
-							<p>
-								<label for="comment"><strong><?php 'Comment' ?></strong></label><br />
-								<textarea id="comment" name="comment" cols="50" rows="7"></textarea>
-							</p>
+							<dl>
+								<dt><label for="author"><strong>名前: <?php if ($req) echo '(必須)' ?></strong></label></dt>
+								<dd><input type="text" name="author" id="author" value="<?php echo esc_attr($comment_author); ?>" size="50" tabindex="1" <?php if ($aria_req) echo $aria_req; ?> /></dd>
+
+								<dt><label for="email"><strong>メールアドレス<?php if ($req) echo '(必須)'; ?></strong></label></dt>
+								<dd><input type="text" name="email" id="email" value="<?php echo esc_attr($comment_author_email); ?>" size="50" tabindex="2" <?php if ($aria_req) echo $aria_req; ?> /></dd>
+
+								<dt><label for="url"><strong>URL</strong></label></dt>
+								<dd><input type="text" name="url" id="url" value="<?php echo esc_attr($comment_author_url); ?>" size="50" tabindex="3" /></dd>
+
+								<dt><label for="comment"><strong>コメント</strong></label></dt>
+								<dd><textarea id="comment" name="comment" cols="80" rows="10"></textarea></dd>
+							</dl>
 						</fieldset>
-		
 					<?php endif; ?>
-					<p class="controls"><input type="submit" name="post" value="comment" /></p>
+					<p class="controls"><button type="submit" name="post" class="button">コメントを投稿する</button></p>
 				</form>
 
 			<?php endif; // If registration required and not logged in ?>

@@ -17,7 +17,7 @@ function get_breadcrumbs(){
 
 	$breadcrumbs = "";
 	if (!is_home()){
-		$breadcrumbs .= '<li><a href="'. get_settings('home') .'">'. get_bloginfo('name') .'</a></li>';
+		$breadcrumbs .= '<li><a title="' . get_bloginfo('name') . '" href="'. get_settings('home') .'">'. get_bloginfo('name') .'</a></li>';
 		if (is_category()) {
 			$catTitle = single_cat_title( "", false );
 			$cat = get_cat_ID( $catTitle );

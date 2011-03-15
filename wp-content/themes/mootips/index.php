@@ -63,8 +63,8 @@
 
 					<footer class="ft">
 						<ul class="entryLinks buttons">
-							<li><a href="<?php comments_link(); ?>">コメントをみる</a></li>
-							<li><a href="<?php trackback_url(true); ?>">トラックバックをみる</a></li>
+							<li><a title="コメントをみる" class="button" href="<?php comments_link(); ?>">コメントをみる</a></li>
+							<li><a title="トラックバックをみる" class="button" href="<?php trackback_url(true); ?>">トラックバックをみる</a></li>
 						</ul>
 					</footer>
 
