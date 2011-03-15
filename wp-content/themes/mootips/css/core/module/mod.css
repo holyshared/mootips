@@ -1,4 +1,4 @@
-/*
+﻿/*
 Copyright (c) 2009, Nicole Sullivan. All rights reserved.
 Code licensed under the BSD License:
 version: 0.2
@@ -11,7 +11,7 @@ version: 0.2
 .inner:after,.hd:after,.bd:after,.ft:after{clear:both;display:block;visibility:hidden;overflow:hidden;height:0 !important;line-height:0;font-size:xx-large;content:" x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ";}
 .inner{position:relative;}
 
-.aside .hd { padding: 10px 15px 15px 45px; -moz-border-radius: 5px; background: #696B73 url(../../../images/bgi_head_aside.gif) no-repeat 10px center; display: block; margin-bottom: 10px; }
+.aside .hd { padding: 10px 15px 15px 45px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; background: #696B73 url(../../../images/bgi_head_aside.gif) no-repeat 10px center; display: block; margin-bottom: 10px; }
 .aside .hd .h3 { font-family: "ヒラギノ角ゴ Pro W3", Sylfaen, Georgia, "Times New Roman", serif; font-size: 123.1%; font-weight:bold; text-transform: uppercase; line-height: 160%; color: #ffffff; margin-bottom: 0px; }
 .aside .hd .h4 { font-family: Vollkorn, Sylfaen, Georgia, "Times New Roman", serif; font-size: 77%; text-transform: uppercase; color: #ffffff;  }
 .aside .hd:before {
@@ -72,7 +72,7 @@ version: 0.2
 .section .trackback { padding-left: 35px; background: url(../../../images/bgi_trackback.gif) no-repeat left center; margin-bottom: 10px; }
 .section .cform { padding-left: 35px; background: url(../../../images/bgi_form.gif) no-repeat left center; margin-bottom: 10px; }
 
-.tags { margin-top: 20px; background: #ebebeb; -moz-border-radius: 10px; display: block; }
+.tags { margin-top: 20px; background: #ebebeb; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; display: block; }
 .tags .inner { padding: 5px 10px 5px 10px; }
 .tags .hd { display: block; margin-bottom: 10px; text-transform: uppercase; border-bottom: 1px dotted #5f9ea0; }
 .tags .hd .h3 { font-size: 108%; padding-bottom: 0px; text-align: left; margin-bottom: 0px; }
