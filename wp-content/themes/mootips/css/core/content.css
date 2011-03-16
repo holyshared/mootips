@@ -1,4 +1,4 @@
-﻿body{font-family: "ヒラギノ角ゴ Pro W3", Sylfaen, Georgia, "Times New Roman", serif;}
+body{font-family: "ヒラギノ角ゴ Pro W3", Sylfaen, Georgia, "Times New Roman", serif;}
 /* **************** CONTENT OBJECTS ***************** */
 
 /* ====== Elements ====== */
@@ -29,21 +29,20 @@ article { display:block; }
 
 .head { background: #33291C; display:block; border-bottom: 5px solid #4C3E28; padding: 0px 0px 17px 0px; margin-bottom: 15px; }
 .body { margin: 0px auto; }
-.foot { background: #33291C; display:block; border-top: 5px solid #4C3E28; margin-top: 20px; padding: 10px 0px 0px 0px; color: #ffffff; }
-
+.foot { background: #33291C; display:block; border-top: 5px solid #4C3E28; margin-top: 40px; padding: 10px 0px 0px 0px; color: #ffffff; }
 
 .foot a { color: #ffffff; text-decoration: underline; }
 
-
-.gbnav { width: 358px; display: block; margin-top: 30px; }
+.gbnav { width: 352px; display: block; margin-top: 30px; padding: 3px; background: #3C3120; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
 
 .logo { background: url(../../images/bgi_logo.jpg) no-repeat left top; padding: 16px 0px 0px 0px; } 
 
-.nav { overflow: hidden; padding: 3px; background: #3C3120; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
-.nav li { float: left; margin-right: 1px; font-size: 123.1%; font-family: 'Lobster'; text-align: center; color: #ffffff; }
-.nav li a { background: #4C3E28; padding: 10px 20px; display: block; color: #ffffff; }
+.nav { margin: 0px; overflow: hidden; }
+.nav li { float: left; margin-left: 1px; font-size: 123.1%; font-family: 'Lobster'; text-align: center; color: #ffffff; }
+.nav li a {background: #4C3E28; padding: 10px 20px; display: block; color: #ffffff; }
+.nav li:first-child { margin-left: 0px; }
 .nav li a:hover { background: #898612; }
-.nav li:last-child  { margin-right: 0px; }
+
 .nav li:first-child a {
 	border-top-left-radius: 3px;
 	border-bottom-left-radius: 3px;
@@ -51,7 +50,6 @@ article { display:block; }
 	-moz-border-radius-bottomleft: 3px;
 	-webkit-border-bottom-left-radius: 3px;
 	-webkit-border-top-left-radius: 3px;
-
 }
 
 .nav li:last-child a {
@@ -61,7 +59,6 @@ article { display:block; }
 	-moz-border-radius-bottomright: 3px;
 	-webkit-border-top-right-radius: 3px;
 	-webkit-border-bottom-right-radius: 3px;
-
 }
 
 .attrbs { overflow: hidden; }
