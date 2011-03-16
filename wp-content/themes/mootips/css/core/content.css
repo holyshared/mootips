@@ -33,13 +33,13 @@ article { display:block; }
 
 .foot a { color: #ffffff; text-decoration: underline; }
 
-.gbnav { width: 352px; display: block; margin-top: 30px; padding: 3px; background: #3C3120; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
+.gbnav { width: 403px; display: block; margin-top: 30px; padding: 3px; background: #3C3120; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
 
 .logo { background: url(../../images/bgi_logo.jpg) no-repeat left top; padding: 16px 0px 0px 0px; } 
 
 .nav { margin: 0px; overflow: hidden; }
 .nav li { float: left; margin-left: 1px; font-size: 123.1%; font-family: 'Lobster'; text-align: center; color: #ffffff; }
-.nav li a {background: #4C3E28; padding: 10px 20px; display: block; color: #ffffff; }
+.nav li a {background: #4C3E28; padding: 10px 20px; display: block; color: #ffffff; width: 60px; }
 .nav li:first-child { margin-left: 0px; }
 .nav li a:hover { background: #898612; }
 

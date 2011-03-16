@@ -9,15 +9,12 @@
 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster:regular,italic,bold&amp;subset=latin" type="text/css" />
 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Vollkorn:regular,italic,bold&amp;subset=latin" type="text/css" />
 		<!--[if gte IE 8]>
-			<style type="text/css">
-				.gbnav { width: 359px; } 
-				/*.gbnav .nav { width: 353px; }*/
-				.gbnav .nav li:first-child { margin-left: 0px; }
-			</style>
-			<script type="text/javascript">
+		<script type="text/javascript">
+			(function(){
 				var html5 = 'abbr,article,footer,header,nav,section,time,aside,hgroup,nav';
 				html5.replace(/\w+/g, function(t){ document.createElement(t); })
-			</script>
+			}());
+		</script>
 		<![endif]-->
 		<script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/lib/mootools-core.js"></script>
 		<script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/lib/mootools-more.js"></script>
