@@ -10,9 +10,9 @@ code{color:#0B8C8F;}
 
 /* links */
 a {color: #2c4460; }
-a:focus, a:hover {text-decoration: underline;}
+a:focus, a:hover { color:#B3AE17; text-decoration: underline; }
 /*a:focus{background-color:#FFFFCC;}*/
-a:visited { color:#005a9c; }
+a:visited { color:#B3AE17; }
 /* ====== Lists ======*/
 /* numbered list */
 ol.simpleList li{list-style-type: decimal; margin-left:20px; line-height: 160%; margin-bottom: 5px; }
@@ -106,6 +106,7 @@ article { display:block; }
 }
 
 .button:hover {
+	color: #ffffff;
 	border: 2px solid #F4F2A8;
 	background: #898612;
 	background: -moz-linear-gradient(
