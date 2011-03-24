@@ -15,9 +15,9 @@ a:focus, a:hover { color:#B3AE17; text-decoration: underline; }
 a:visited { color:#B3AE17; }
 /* ====== Lists ======*/
 /* numbered list */
-ol.simpleList li{list-style-type: decimal; margin-left:20px; line-height: 160%; margin-bottom: 5px; }
+ol.simpleList li{list-style-type: decimal; margin-left:20px; line-height: 160%; }
 /* standard list */
-ul.simpleList li{list-style-type:disc; margin-left:20px; line-height: 160%;margin-bottom: 5px; }
+ul.simpleList li{list-style-type:disc; margin-left:20px; line-height: 160%; }
 /* ====== blockquote ====== */
 cite{display:block; text-align:right; padding-top: 10px;}
 

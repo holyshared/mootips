@@ -25,7 +25,7 @@ Tags: fixed width, two columns
 @import url("css/core/content.css");
 @import url("css/core/heading/heading.css");
 
-@import url("css/table/table.css");
-@import url("css/table/table_skins.css");
+@import url("css/core/table/table.css");
+@import url("css/core/table/table_skins.css");
 
 @import url("css/plugins/plugins.css");
