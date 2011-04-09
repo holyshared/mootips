@@ -23,6 +23,8 @@ cite{display:block; text-align:right; padding-top: 10px;}
 
 p, dt, dd { line-height: 160%; }
 
+blockquote { padding: 15px 15px 5px 15px; background: #eeeeee; -moz-border-radius: 10px; }
+
 body { background: #EEEDC1 url(../../images/bgi_body.jpg) repeat-y center top; }
 section { display:block; }
 article { display:block; }

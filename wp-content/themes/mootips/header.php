@@ -18,6 +18,7 @@
 		<script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/lib/mootools-core.js"></script>
 		<script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/lib/mootools-more.js"></script>
 		<script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/mootips.js"></script>
+		<script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/ga.js"></script>
 	</head>
 	<body>
 
