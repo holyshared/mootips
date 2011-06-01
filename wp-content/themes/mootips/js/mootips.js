@@ -4,7 +4,10 @@ window.addEvent('domready', function(){
 	var tips = new Tips({
 		title: function(element){
 			var title = element.getProperty('title');
-			if (!title){
+			var img = element.getElement('img');
+			if (!title && img){
+				title = img.get('title');
+			} else if (!title){
 				title = element.get('html');
 			}
 			return title;
