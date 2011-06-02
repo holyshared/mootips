@@ -31,6 +31,7 @@
 								</dd>
 							<?php endif; ?>
 						</dl>
+						<g:plusone size="medium"></g:plusone>
 					</header>
 
 					<div class="bd">

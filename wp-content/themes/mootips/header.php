@@ -19,6 +19,7 @@
 		<script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/lib/mootools-more.js"></script>
 		<script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/mootips.js"></script>
 		<script type="text/javascript" src="<?php bloginfo('template_directory') ?>/js/ga.js"></script>
+		<script type="text/javascript" src="http://apis.google.com/js/plusone.js">{lang: 'ja'}</script>
 	</head>
 	<body>
 
