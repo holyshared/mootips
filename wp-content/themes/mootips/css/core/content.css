@@ -156,6 +156,7 @@ article { display:block; }
 .comment .bd { padding: 0px 0px 15px 0px; border-bottom: 1px dotted #cccccc; }
 
 
-.form {}
 .form dt {/* float: left; clear: both; width: 160px;*/ }
 .form dd { margin-bottom: 10px;  }
+
+.fb_ltr { left: -15px; top: -2px; }

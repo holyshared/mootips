@@ -32,6 +32,7 @@
 							<?php endif; ?>
 						</dl>
 						<g:plusone size="medium"></g:plusone>
+						<span id="fb-root"></span><script src="http://connect.facebook.net/en_US/all.js#appId=211616925545958&amp;xfbml=1"></script><fb:like href="http://mootips.org/" send="false" width="450" show_faces="true" font=""></fb:like>
 					</header>
 
 					<div class="bd">
