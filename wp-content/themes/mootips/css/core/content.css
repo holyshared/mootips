@@ -21,6 +21,10 @@ ul.simpleList li{list-style-type:disc; margin-left:20px; line-height: 160%; }
 /* ====== blockquote ====== */
 cite{display:block; text-align:right; padding-top: 10px;}
 
+pre {
+	margin-bottom: 15px;
+}
+
 p, dt, dd { line-height: 160%; }
 
 blockquote { padding: 15px 15px 5px 15px; background: #eeeeee; -moz-border-radius: 10px; }
