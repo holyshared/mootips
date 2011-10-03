@@ -40,7 +40,7 @@ function get_breadcrumbs(){
 			$category = get_the_category();
 			$category_id = get_cat_ID( $category[0]->cat_name );
 			$breadcrumbs .= '<li>' . get_category_parents( $category_id, true, "" ) . "</li>";
-			$breadcrumbs .= '<li>' . the_title('','', false) ."</li>";
+			$breadcrumbs .= '<li>' . get_the_title(get_query_var('p')) ."</li>";
 		} elseif (is_page()) {
 			$post = $wp_query->get_queried_object();
 			if ($post->post_parent == 0){
