@@ -6,7 +6,8 @@
 		<?php wp_head(); ?>
 		<meta name="google-site-verification" content="ziFSqHxGurCR_aaEu2rnqtQrtT7PIewXaz7mOuCUwaI" />
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
-		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster,b|Vollkorn,b&amp;subset=latin" type="text/css" />
+<!--		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster,b|Vollkorn,b&amp;subset=latin" type="text/css" /> -->
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster|Vollkorn" type="text/css" />
 		<!--[if gte IE 8]>
 		<script type="text/javascript">
 			(function(){
